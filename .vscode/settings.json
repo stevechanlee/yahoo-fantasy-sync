@@ -1,0 +1,9 @@
+{
+  "terminal.integrated.profiles.osx": {
+    "Project Bash (nvm)": {
+      "path": "/bin/bash",
+      "args": ["-l"]
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "Project Bash (nvm)"
+}

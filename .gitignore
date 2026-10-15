@@ -1,0 +1,55 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+
+# Local environment and authentication material (at any directory depth)
+.env*
+!.env.example
+.credentials/
+credentials/
+.secrets/
+secrets/
+tokens/
+*client_secret*
+*client-secret*
+google-client*.json
+*credentials*.json
+*token*.json
+*oauth*.json
+*service-account*.json
+*service_account*.json
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+
+# Runtime state, locks, private league exports and backups
+.state/
+.state.lock/
+snapshots/
+data/
+exports/
+backups/
+private/
+.private/
+*snapshot*.json
+*.jsonl
+*.ndjson
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+*.tgz
+
+# Commit only the shared VS Code settings; other editor state stays local.
+.vscode/*
+!.vscode/settings.json
+*.code-workspace
