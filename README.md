@@ -11,6 +11,17 @@ Yahoo game keys, actual league names, team counts, ownership, scoring and roster
 
 **Current setup state:** implementation and offline tests are complete. Real league existence, account access, actual settings, and Google writes must be verified with your credentials. The tests use explicitly synthetic fixtures; their game keys, counts, names and players are not live league results.
 
+## Public homepage and privacy policy
+
+The static GitHub Pages website lives in `docs/`. Its homepage describes the personal, non-commercial application and links to a separate privacy policy covering the actual Google Sheets scope, local OAuth storage, data use, retention, and revocation.
+
+After publishing from this repository's `main` branch and `/docs` folder:
+
+- Homepage: <https://stevechanlee.github.io/yahoo-fantasy-sync/>
+- Privacy policy: <https://stevechanlee.github.io/yahoo-fantasy-sync/privacy.html>
+
+See [the publishing and Google ownership-verification guide](guides/github-pages.md) for enabling Pages, checking the public URLs, updating Google OAuth branding, and handling the distinction between a project URL-prefix property and domain ownership. These URLs are deployment targets until the changes are pushed and Pages is enabled. This website does not host the synchronization app or accept credentials.
+
 ## 1. Node.js and installation
 
 Use **Node.js 24 LTS**, including the native Apple Silicon (`arm64`) version on an M-series Mac. The default Node v12 found on this workspace is too old. Install the Node 24 macOS installer from [nodejs.org](https://nodejs.org/en/download), or, if you already use nvm:
